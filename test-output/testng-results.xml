@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-08T21:21:35 IST" name="Suite" finished-at="2025-01-08T21:21:58 IST" duration-ms="23061">
+    <groups>
+    </groups>
+    <test started-at="2025-01-08T21:21:35 IST" name="Test" finished-at="2025-01-08T21:21:58 IST" duration-ms="23061">
+      <class name="APITests.CoinDeskAPI">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:APITests.CoinDeskAPI@4d9e68d0]" started-at="2025-01-08T21:21:35 IST" name="setUp" finished-at="2025-01-08T21:21:37 IST" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBPIEntriesSize()[pri:0, instance:APITests.CoinDeskAPI@4d9e68d0]" started-at="2025-01-08T21:21:37 IST" name="testBPIEntriesSize" finished-at="2025-01-08T21:21:37 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBPIEntriesSize -->
+        <test-method signature="testCurrencyDetails()[pri:0, instance:APITests.CoinDeskAPI@4d9e68d0]" started-at="2025-01-08T21:21:37 IST" name="testCurrencyDetails" finished-at="2025-01-08T21:21:37 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrencyDetails -->
+        <test-method signature="testGBPDescription()[pri:0, instance:APITests.CoinDeskAPI@4d9e68d0]" started-at="2025-01-08T21:21:37 IST" name="testGBPDescription" finished-at="2025-01-08T21:21:37 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGBPDescription -->
+      </class> <!-- APITests.CoinDeskAPI -->
+      <class name="UITests.AddBookToCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UITests.AddBookToCart@1a451d4d]" started-at="2025-01-08T21:21:37 IST" name="setUp" finished-at="2025-01-08T21:21:42 IST" duration-ms="5281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddBookToCart()[pri:0, instance:UITests.AddBookToCart@1a451d4d]" started-at="2025-01-08T21:21:42 IST" name="testAddBookToCart" finished-at="2025-01-08T21:21:58 IST" duration-ms="15208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddBookToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:UITests.AddBookToCart@1a451d4d]" started-at="2025-01-08T21:21:58 IST" name="tearDown" finished-at="2025-01-08T21:21:58 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- UITests.AddBookToCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
